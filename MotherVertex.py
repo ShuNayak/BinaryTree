@@ -43,7 +43,7 @@ for vertex, subList in obj.adjList.items():
     if vertex==ans:
         pass
     else:
-        if 0 in subList:
+        if ans in subList:
             print(vertex)
 
 
