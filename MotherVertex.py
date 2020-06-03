@@ -40,7 +40,7 @@ ans = obj.motherVertex()
 print(ans)
 # if we want to find all the mother vertices then find the vertices that have an outgoing edge to the mother vertex output
 for vertex, subList in obj.adjList.items():
-    if vertex==0:
+    if vertex==ans:
         pass
     else:
         if 0 in subList:
